@@ -1,0 +1,1051 @@
+/*<STYLE TYPE="text/css">*/
+body { 			
+
+  background: #c8c6b7;
+  padding: 5px 10px; 
+
+}
+
+embed {
+    padding: 15px;
+    width: 900px;
+    height: ;
+}
+
+/* Heading/Breadcrumb links */
+
+a.TLHeader:link {color: #666666; font-weight: bold; }
+
+a.TLHeader:visited { color: #666666; font-weight: bold;  }
+
+a.TLHeader:hover { color: #f5a826; font-weight: bold; }
+
+a.TLHeader:active { color: red; font-weight: bold;  }
+
+
+
+a.TLHeaderAction:link {color: #666666; }
+
+a.TLHeaderAction:visited { color: #666666; }
+
+a.TLHeaderAction:hover { color: #f5a826;  }
+
+a.TLHeaderAction:active { color: red;   }
+
+
+
+/* Normal links */
+
+a:link {color: black }
+
+a:visited { color: black }
+
+a:hover { color: red}
+
+a:active { color: red }
+
+
+/* Breadcrumbs/Header DIV */
+
+.breadcrumbs
+
+{	
+
+	color: white;
+
+	background-color: #CCCCCC;	
+
+	border-left: solid 1px #EEEEEE;
+
+	border-top: solid 1px #EEEEEE;
+
+	border-right: solid 1px #777777;
+
+	border-bottom: solid 1px #777777;		
+
+	width: 100%;
+
+}
+
+/* Header table */
+
+table.TLHeader
+
+{	
+
+	font-family: Verdana;
+
+	color: #333333;	
+
+	width: 100%;	
+
+}
+
+td.TLHeaderTitle {
+
+	font-weight: bold;		
+
+}
+
+td.TLHeaderAction {	
+
+}
+
+td.TLHeaderLogo {
+
+	width: 50px;
+
+}
+
+
+
+/* Error message DIV */
+
+.error
+
+{
+
+ color: red;
+
+ margin : 10px 10px 10px 10px;
+
+}
+
+
+
+
+
+/* Test case edit class definitions */
+
+/* Change the width and height as necesary */
+
+	.TL_TESTTYPE_EDIT 		{ width: 250px; }
+
+	.TL_TESTTPHASE_EDIT 	{ width: 250px; }
+
+	.TL_PRIORITY_EDIT			{ width: 250px; }
+
+	.TL_ID_EDIT 					{ width: 250px; }
+
+	.TL_TITLE_EDIT 				{ width: 250px; }
+
+	.TL_EXPDURATION_EDIT 	{ width: 250px; }
+
+	.TL_CREATEDATE_EDIT 	{ width: 50px; }
+
+	.TL_CREATETIME_EDIT 	{ width: 75px; }
+
+	.TL_UPDATEDATE_EDIT		{ width: 50px; }
+
+	.TL_UPDATETIME_EDIT		{ width: 75px; }
+
+	.TL_AUTHOR_EDIT 			{ width: 250px; }
+
+	.TL_UPDATEBY_EDIT			{ width: 250px; }
+
+	.TL_CONFIG_EDIT 			{ width: 250px; }
+
+	.TL_RESOURCE_EDIT 		{ width: 250px; }
+
+	.TL_PRERQ_EDIT 				{ width: 500px; height: 100px; }
+
+	.TL_DESCRIPTION_EDIT 	{ width: 500px; height: 100px; }
+
+	.TL_EXPRESULTS_EDIT 	{ width: 500px; height: 100px; }
+
+	.TL_NOTES1_EDIT				{ width: 500px; height: 100px; }
+
+	.TL_NOTES2_EDIT 			{ width: 500px; height: 100px; }
+
+	.TL_EXTLINK_EDIT			{ width: 500px; }
+
+
+
+/* Project test case edit class definitions - also uses the above ones for fields in common with test cases*/
+
+/* Change the width and height as necesary */		
+
+	.TL_STATUS_EDIT 					{ width: 250px; }
+
+	.TL_ATTEMPTS_EDIT  				{ width: 250px; }
+
+	.TL_LASTATTEMPTDATE_EDIT  { width: 50px; }
+
+	.TL_LASTATTEMPTTIME_EDIT  { width: 75px; }
+
+	.TL_ACTDURATION_EDIT 			{ width: 250px; }
+
+	.TL_TESTERS_EDIT  				{ width: 250px; }
+
+	.TL_FAULTREP_EDIT 				{ width: 250px; }
+
+	.TL_CHANGEREQ_EDIT 				{ width: 250px; }		
+
+	.TL_RESULTS_EDIT  				{ width: 500px; height: 100px; }		
+
+	.TL_VERTESTED_EDIT  			{ width: 250px; }		
+
+	.TL_BUILDTESTED_EDIT  		{ width: 250px; }
+
+	.TL_RESLINK_EDIT  				{ width: 500px; }		
+
+	.TL_RESNOTES_EDIT 				{ width: 500px; height: 100px; }	
+
+
+
+p.pagebreak {
+
+page-break-before: always;
+
+}
+
+
+p.footer {
+
+	font-family: Verdana;
+
+	font-size: smaller;
+
+	font-weight: 900;
+
+	color: black	
+
+}
+
+
+p.fullReport{
+
+	font-family: Verdana;
+
+	font-size: medium;
+
+	font-weight: 900;
+
+	color: black
+
+}
+
+
+pre {
+
+	font-family: Verdana;
+
+	font-size: small; 
+
+}
+
+
+pre.data {
+
+	font-family: Verdana;
+
+	font-size: small;
+
+	color: black
+
+}
+
+
+pre.fullReport {
+
+	font-family: Verdana;
+
+	font-size: small;
+
+	color: black 
+
+}
+
+
+#TabHeader {
+
+	float:left;	
+
+	width:100%;
+
+	padding-left: 10px;
+
+	padding-top: 6px;	
+
+	padding-bottom: 2px;
+
+	background: #c8c6b7 url("./images/tab_beige_bg.png") repeat-x bottom;
+
+	border-bottom: solid 1px #aca899;
+
+	font-size:93%;
+
+	line-height:normal;	
+
+}
+
+#TabHeader ul {
+
+	margin:0;
+
+	padding:0;
+
+	list-style:none;
+
+}
+
+#TabHeaderText {
+
+	display: block;
+
+	background:url("./images/tab_beige_left.png") no-repeat left top;
+
+	padding-top: 5px;
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+	padding-bottom: 3px;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 11px;
+
+	color: black;
+
+	text-decoration: none;
+
+}
+
+
+#TabHeader li {
+
+	float:left;
+
+	background:url("./images/tab_beige_right.png") no-repeat right top;
+
+	margin: 0px;	
+
+	padding-right: 5px;
+
+}
+
+#TabHeader img {
+
+	border: 0px;
+
+	vertical-align: middle;		
+
+}
+
+
+#ProjectTitle {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #6b7e92;
+
+	background: #7a6156;
+
+	width: 100%;
+
+	border-left: solid 1px #a98f85;
+
+	border-top: solid 1px #5d4a43;
+
+	border-right: solid 1px #5d4a43;
+
+	border-bottom: solid 1px #5d4a43;	
+
+}
+
+
+#TestTitle {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #6b7e92;	
+
+	width: 100%;
+
+	border-left: solid 1px #97A8B7;
+
+	border-top: solid 1px #4b5b6c;
+
+	border-right: solid 1px #4b5b6c;
+
+	border-bottom: solid 1px #4b5b6c;	
+
+}
+
+#TestTitlePass {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #33a82d;	
+
+	width: 100%;
+
+	border-left: solid 1px #6ad662;
+
+	border-top: solid 1px #256f1f;
+
+	border-right: solid 1px #256f1f;
+
+	border-bottom: solid 1px #256f1f;	
+
+}
+
+#TestTitleFail {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #c03133;	
+
+	width: 100%;
+
+	border-left: solid 1px #d9696c;
+
+	border-top: solid 1px #8f2528;
+
+	border-right: solid 1px #8f2528;
+
+	border-bottom: solid 1px #8f2528;	
+
+}
+
+#TestTitleNYA {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #6b7e92;	
+
+	width: 100%;
+
+	border-left: solid 1px #97A8B7;
+
+	border-top: solid 1px #4b5b6c;
+
+	border-right: solid 1px #4b5b6c;
+
+	border-bottom: solid 1px #4b5b6c;	
+
+}
+
+#TestTitleOther {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #3282c0;	
+
+	width: 100%;
+
+	border-left: solid 1px #70acda;
+
+	border-top: solid 1px #26618e;
+
+	border-right: solid 1px #26618e;
+
+	border-bottom: solid 1px #26618e;	
+
+}
+
+#TestTitlePostponed {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #6b5ad4;	
+
+	width: 100%;
+
+	border-left: solid 1px #7f70da;
+
+	border-top: solid 1px #4f3dbd;
+
+	border-right: solid 1px #4f3dbd;
+
+	border-bottom: solid 1px #4f3dbd;	
+
+}
+
+
+.Pass { color: #33a82d; font-weight: bold; }
+
+.Fail { color: #c03133; font-weight: bold;}
+
+.NYA { color: #6b7e92; font-weight: bold;}
+
+.Other { color: #3282c0; font-weight: bold; }
+
+.Postponed { color: #6b5ad4; font-weight: bold; }
+
+
+table.TestInfo {
+
+	background-color: #d5d5d5;	
+
+	width: 100%;
+
+	border-top: solid 1px #EEEEEE;
+
+	border-left: solid 1px #eeeeee;
+
+	border-right: solid 1px #B0B0B0;
+
+	border-bottom: solid 1px #a0a0a0;			
+
+}
+
+
+table.TestData {
+
+	clear: left;
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-left: solid 1px #DDDDDD;	
+
+	border-right: solid 1px #BBBBBB;
+
+	border-bottom: solid 1px #BBBBBB;	
+
+	width: 100%;	
+
+	margin-bottom: 10px;
+
+	padding-top: 10px;
+
+}
+
+
+h1 {
+
+	margin-top: 10px;	
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;
+
+	color: white;
+
+	padding: 5px;	
+
+	background: #565656;	
+
+	border-left: solid 1px #979797;
+
+	border-top: solid 1px #979797;
+
+	border-right: solid 1px #3a3a3a;	
+
+	border-bottom: solid 1px #3a3a3a;		
+
+	text-align: top;
+
+	margin: 0px 0px 0px 0px;	
+
+}
+
+
+h2 {
+
+	margin-top: 10px;	
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 11px;
+
+	color: white;
+
+	padding: 5px;	
+
+	background: #565656;	
+
+	border-left: solid 1px #979797;
+
+	border-top: solid 1px #979797;
+
+	border-right: solid 1px #3a3a3a;	
+
+	border-bottom: solid 1px #3a3a3a;	
+
+	text-align: top;
+
+	margin: 0px 0px 0px 0px;	
+
+}
+
+
+h3 { 
+
+	margin-top: 10px;	
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 11px;
+
+	color: white;
+
+	padding: 5px;
+
+	margin-right: auto;
+
+	background: #565656;	
+
+	border-left: solid 1px #979797;
+
+	border-top: solid 1px #979797;
+
+	border-right: solid 1px #3a3a3a;
+
+	border-bottom: solid 1px #3a3a3a;	
+
+	text-align: top;
+
+	margin-bottom: 0px;
+
+}
+
+
+h1.projName {
+
+	color: black;
+
+	font-family: Verdana
+
+}
+
+
+h1.currentName {
+
+	color: black;
+
+	font-family: Verdana
+
+}
+
+
+h1.fullReport {
+
+	color: red;
+
+	font-family: Verdana;
+
+	text-decoration: underline
+
+}
+
+
+h2.fieldHeading {
+
+	color: black;
+
+	font-family: Verdana;
+
+}
+
+
+table.listreport {
+
+	color: black;
+
+	background-color: #666666;
+
+	border-color: #666666;
+
+	width: 100%;
+
+}
+
+
+table.display {
+
+	clear: left;
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-left: solid 1px #DDDDDD;
+
+	border-top: solid 1px #DDDDDD;
+
+	border-right: solid 1px #BBBBBB;
+
+	border-bottom: solid 1px #BBBBBB;
+
+	width: 100%;	
+
+	margin-bottom: 10px;
+
+	padding-top: 10px;	
+
+}
+
+
+/* Progress report heading */
+
+td.progressReportH
+
+{
+
+	font-weight: 900;
+
+	padding: 2px;
+
+}
+
+
+/* Progress report tables data*/
+
+table.progressReport
+
+{
+
+}
+
+
+td.progressReport
+
+{
+
+	padding: 2px;
+
+	align: center;	
+
+}
+
+
+
+td.display  {
+
+	color: black;
+
+	background-color: #E1E1E1;
+
+	border-color: #666666;
+
+}
+
+
+td.listreport {
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-color: #666666;
+
+}
+
+
+td.Heading {
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-color: #FFFFFF;
+
+	font-family: Verdana;
+
+	font-size: small;
+
+	font-weight: bold;
+
+	width: 30%;
+
+}
+
+
+td.TestInfoHeading {
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #666666;
+
+}
+
+td.TestInfoData {
+
+	font-family: Verdana;
+
+	font-size: 11px;	
+
+	padding-bottom: 10px;
+
+	color: #333333;
+
+}
+
+
+td.TestCaseHeading {
+
+	color: #333333;
+
+	background-color: #DDDDDD;	
+
+	font-family: Verdana;
+
+	font-size: smaller;
+
+	font-weight: bold;	
+
+	padding: 5px;
+
+}
+
+   
+td.topBorder {
+
+   border-top:  solid 2px black;
+
+}
+       
+
+td.TestCaseData {
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-color: #FFFFFF;
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	font-weight: 100;	
+
+	padding-bottom: 15px;
+
+}
+
+
+td.OtherHeading{
+
+	color: #333333;
+
+	background-color: #DDDDDD;	
+
+	font-family: Verdana;
+
+	font-size: smaller;
+
+	font-weight: bold;	
+
+	padding: 5px;
+
+}
+
+
+td.OtherData {
+
+	color: black;
+
+	background-color: #FFFFFF;
+
+	border-color: #FFFFFF;
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	font-weight: 100;	
+
+	padding-bottom: 15px;
+
+}
+
+
+td { 
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	padding-right: 20px;
+
+}
+
+
+p { 
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	background-color: #FFFFFF;
+
+	width: 100%;		
+
+	margin: 0px;
+
+}
+
+
+table.List {
+
+	font-family: Verdana;
+
+	font-size: 11px;
+
+	background-color: #FFFFFF;
+
+	border-top: solid 1px #BBBBBB;
+
+	border-left: solid 1px #DDDDDD;
+
+	border-right: solid 1px #BBBBBB;
+
+	width: 100%;		
+
+}
+
+
+td.ListHeading {
+
+	color: #333333;
+
+	background-color: #DDDDDD;
+
+	font-family: Verdana;
+
+	font-size: 12px;
+
+	font-weight: bold;	
+
+	padding: 5px;	
+
+}
+
+
+tr.ListAlt {
+
+	background-color: #f4f3ee;
+
+}
+
+
+table.Login {
+
+	font-family: Verdana;
+
+	font-size: 13px;
+
+	background-color: #FFFFFF;
+
+	border-top: solid 1px #BBBBBB;
+
+	border-left: solid 1px #DDDDDD;
+
+	border-right: solid 1px #BBBBBB;
+
+	width: 200px;			
+
+}
+
+
+td.Login {
+
+	font-weight: bold;
+
+	padding: 10px;
+
+}
+
+/*</STYLE>*/
