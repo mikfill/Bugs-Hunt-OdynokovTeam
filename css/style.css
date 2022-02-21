@@ -1,4 +1,4 @@
-/*<STYLE TYPE="text/css">*/
+
 body { 			
 
   background: #c8c6b7;
@@ -6,11 +6,6 @@ body {
 
 }
 
-embed {
-    padding: 15px;
-    width: 900px;
-    height: ;
-}
 
 /* Heading/Breadcrumb links */
 
@@ -98,7 +93,6 @@ td.TLHeaderLogo {
 }
 
 
-
 /* Error message DIV */
 
 .error
@@ -112,9 +106,6 @@ td.TLHeaderLogo {
 }
 
 
-
-
-
 /* Test case edit class definitions */
 
 /* Change the width and height as necesary */
@@ -123,11 +114,11 @@ td.TLHeaderLogo {
 
 	.TL_TESTTPHASE_EDIT 	{ width: 250px; }
 
-	.TL_PRIORITY_EDIT			{ width: 250px; }
+	.TL_PRIORITY_EDIT		{ width: 250px; }
 
-	.TL_ID_EDIT 					{ width: 250px; }
+	.TL_ID_EDIT 			{ width: 250px; }
 
-	.TL_TITLE_EDIT 				{ width: 250px; }
+	.TL_TITLE_EDIT 			{ width: 250px; }
 
 	.TL_EXPDURATION_EDIT 	{ width: 250px; }
 
@@ -139,25 +130,25 @@ td.TLHeaderLogo {
 
 	.TL_UPDATETIME_EDIT		{ width: 75px; }
 
-	.TL_AUTHOR_EDIT 			{ width: 250px; }
+	.TL_AUTHOR_EDIT 		{ width: 250px; }
 
-	.TL_UPDATEBY_EDIT			{ width: 250px; }
+	.TL_UPDATEBY_EDIT		{ width: 250px; }
 
-	.TL_CONFIG_EDIT 			{ width: 250px; }
+	.TL_CONFIG_EDIT 		{ width: 250px; }
 
 	.TL_RESOURCE_EDIT 		{ width: 250px; }
 
-	.TL_PRERQ_EDIT 				{ width: 500px; height: 100px; }
+	.TL_PRERQ_EDIT 			{ width: 500px; height: 100px; }
 
 	.TL_DESCRIPTION_EDIT 	{ width: 500px; height: 100px; }
 
 	.TL_EXPRESULTS_EDIT 	{ width: 500px; height: 100px; }
 
-	.TL_NOTES1_EDIT				{ width: 500px; height: 100px; }
+	.TL_NOTES1_EDIT			{ width: 500px; height: 100px; }
 
-	.TL_NOTES2_EDIT 			{ width: 500px; height: 100px; }
+	.TL_NOTES2_EDIT 		{ width: 500px; height: 100px; }
 
-	.TL_EXTLINK_EDIT			{ width: 500px; }
+	.TL_EXTLINK_EDIT		{ width: 500px; }
 
 
 
@@ -165,32 +156,31 @@ td.TLHeaderLogo {
 
 /* Change the width and height as necesary */		
 
-	.TL_STATUS_EDIT 					{ width: 250px; }
+	.TL_STATUS_EDIT 			{ width: 250px; }
 
-	.TL_ATTEMPTS_EDIT  				{ width: 250px; }
+	.TL_ATTEMPTS_EDIT  			{ width: 250px; }
 
-	.TL_LASTATTEMPTDATE_EDIT  { width: 50px; }
+	.TL_LASTATTEMPTDATE_EDIT  	{ width: 50px; }
 
-	.TL_LASTATTEMPTTIME_EDIT  { width: 75px; }
+	.TL_LASTATTEMPTTIME_EDIT  	{ width: 75px; }
 
-	.TL_ACTDURATION_EDIT 			{ width: 250px; }
+	.TL_ACTDURATION_EDIT 		{ width: 250px; }
 
-	.TL_TESTERS_EDIT  				{ width: 250px; }
+	.TL_TESTERS_EDIT  			{ width: 250px; }
 
-	.TL_FAULTREP_EDIT 				{ width: 250px; }
+	.TL_FAULTREP_EDIT 			{ width: 250px; }
 
-	.TL_CHANGEREQ_EDIT 				{ width: 250px; }		
+	.TL_CHANGEREQ_EDIT 			{ width: 250px; }		
 
-	.TL_RESULTS_EDIT  				{ width: 500px; height: 100px; }		
+	.TL_RESULTS_EDIT  			{ width: 500px; height: 100px; }		
 
-	.TL_VERTESTED_EDIT  			{ width: 250px; }		
+	.TL_VERTESTED_EDIT  		{ width: 250px; }		
 
 	.TL_BUILDTESTED_EDIT  		{ width: 250px; }
 
-	.TL_RESLINK_EDIT  				{ width: 500px; }		
+	.TL_RESLINK_EDIT  			{ width: 500px; }		
 
-	.TL_RESNOTES_EDIT 				{ width: 500px; height: 100px; }	
-
+	.TL_RESNOTES_EDIT 			{ width: 500px; height: 100px; }	
 
 
 p.pagebreak {
@@ -775,9 +765,7 @@ table.display {
 
 /* Progress report heading */
 
-td.progressReportH
-
-{
+td.progressReportH {
 
 	font-weight: 900;
 
@@ -788,16 +776,12 @@ td.progressReportH
 
 /* Progress report tables data*/
 
-table.progressReport
-
-{
+table.progressReport {
 
 }
 
 
-td.progressReport
-
-{
+td.progressReport {
 
 	padding: 2px;
 
@@ -916,7 +900,7 @@ td.TestCaseData {
 }
 
 
-td.OtherHeading{
+td.OtherHeading {
 
 	color: #333333;
 
@@ -1047,5 +1031,3 @@ td.Login {
 	padding: 10px;
 
 }
-
-/*</STYLE>*/
