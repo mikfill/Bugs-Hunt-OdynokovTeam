@@ -326,6 +326,10 @@ pre.fullReport {
 
 }
 
+.gif-image {
+
+	width: 100%;
+}
 
 #ProjectTitle {
 
@@ -387,6 +391,38 @@ pre.fullReport {
 	border-right: solid 1px #4b5b6c;
 
 	border-bottom: solid 1px #4b5b6c;	
+
+}
+
+#BugReportTitle {
+
+	clear: left;
+
+	color: white;
+
+	font-family: Verdana;
+
+	font-weight: bold;
+
+	font-size: 13px;	
+
+	margin: 0px 0px 0px 0px;
+
+	padding: 10px;	
+
+	background: #6b7e92;
+
+	background: #7a6156;
+
+	width: 100%;
+
+	border-left: solid 1px #a98f85;
+
+	border-top: solid 1px #5d4a43;
+
+	border-right: solid 1px #5d4a43;
+
+	border-bottom: solid 1px #5d4a43;	
 
 }
 
@@ -899,6 +935,10 @@ td.TestCaseData {
 
 }
 
+td.TestCaseData p {
+	font-size: 12px;
+	padding-top: 10px;
+}
 
 td.OtherHeading {
 
